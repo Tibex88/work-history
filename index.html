@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>tibebe-work-history</title>
+</head>
+<body style="font-family:Arial, sans-serif; color:#000000; line-height:1.4; max-width:900px; margin:0 auto;">
+
+<h1 style="margin-bottom:2px;">Tibebe Solomon Zeradawit</h1>
+<p style="color:#434343;">BSc Software Engineering, AASTU (CGPA 3.43) &middot; <a href="mailto:tibesolomon7@gmail.com">tibesolomon7@gmail.com</a> &middot; +251 923621874 &middot; <a href="https://github.com/Tibex88">github.com/Tibex88</a></p>
+
+<h2>Skills</h2>
+<hr>
+
+<p><b>Languages</b><br>JS/TS &middot; Java &middot; Python &middot; Dart &middot; C#</p>
+<p><b>Frameworks / Tools</b><br>Next.js &middot; NestJS &middot; Vue &middot; Docker &middot; TanStack Query &middot; Git &middot; GitHub</p>
+<p><b>Web3</b><br>wagmi &middot; Reown AppKit &middot; viem &middot; wallet authentication &middot; message-signature verification &middot; blockchain fundamentals</p>
+<p><b>Testing</b><br>Playwright &middot; Synpress &middot; Mock Service Worker (MSW)</p>
+<p><b>Cloud</b><br>AWS Solutions Architect &ndash; Associate &middot; AWS Cloud Practitioner &middot; cloud architecture &middot; scalable system design</p>
+<p><b>Additional languages</b><br>MeTTa &middot; Bash &middot; PowerShell</p>
+<p><b>Backend (.NET)</b><br>ASP.NET Core &middot; EF Core (+ InMemory provider) &middot; Swagger / Swashbuckle (custom asset injection) &middot; HtmlAgilityPack &middot; Hangfire &middot; typed HttpClient + DI &middot; JWT middleware &middot; CSRF / anti-forgery patterns</p>
+<p><b>Backend testing</b><br>xUnit integration tests &middot; HTML parsing (HtmlAgilityPack) &middot; in-memory ZIP / multipart fixtures &middot; poll-until helpers</p>
+<p><b>Game &amp; Agent Systems</b><br>Unity Editor &middot; Unity MVC / Redux-style state &middot; WebSocket protocol design (/game/state, /game/actions) &middot; raycast perception sensors &middot; LLM integration (MiniMax) &middot; prompt engineering &middot; scenario / experiment harnesses</p>
+<p><b>AI / Image Gen</b><br>ComfyUI &middot; Stable Diffusion 1.5 &middot; PyTorch MPS (Apple Silicon)</p>
+<p><b>Ops / Tooling</b><br>docker-compose &middot; Nginx reverse proxy &middot; GitHub Actions &middot; AWS Elastic Beanstalk deploys &middot; advanced Git (submodules &middot; worktree &middot; cherry-pick &middot; branch rename)</p>
+<p><b>Courses (Coursera)</b><br>Machine Learning Specialization &middot; Deep Learning Specialization &middot; Mathematics for ML &middot; Software Design &amp; Architecture &middot; Blockchain Basics</p>
+<p><b>Languages spoken</b><br>English &middot; Amharic &middot; Arabic</p>
+
+<h2>Work History</h2>
+<hr>
+
+<p><i>Fixed 14-day windows &mdash; entries live in the window their start-date falls in, so parallel streams stack visibly. Each entry shows its true dated work-range in monospace next to the title.</i></p>
+
+<p><i>Repository tag inferred from commit URL:
+<span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">backend</span> sail3-backend &middot;
+<span style="background-color:#34A853;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">frontend</span> sophiaverse-website &middot;
+<span style="background-color:#8E44AD;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">game</span> sail_redux &middot;
+<span style="background-color:#E67E22;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">agent</span> OmegaClaw &middot;
+<span style="background-color:#17A2B8;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">deck</span> Control Deck &middot;
+<span style="background-color:#D6336C;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">infra</span> vm-launch-bridge</i></p>
+
+<!-- ============================================================ -->
+<h3 style="margin-bottom:0;">May 25 &ndash; June 7, 2026 <span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">2</span> <span style="background-color:#D6336C;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">2</span></h3>
+<hr style="margin-top:2px;">
+
+<p>
+<span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">backend</span>
+<b>App-activity documentation and auth-flow / Dockerfile audit</b>
+<i>[May 25 &ndash; May 31, uncommitted]</i>
+</p>
+<ul>
+<li>Created docs/app-activities.md; documented the app activity surface and backend-supported actions.</li>
+<li>Reviewed source/Sail3.API/Dockerfile and source/Sail3.API/Controllers/AccountController.cs during local runtime setup and controller-level backend review.</li>
+</ul>
+
+<p>
+<span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">backend</span>
+<b>Simplify local workflow and config setup</b>
+<i>[Jun 4]</i>
+<sup style="font-size:14px;"><a href="https://github.com/Tibex88/sail3-backend-main/commit/aebe30d885538201aeb93138abbd9509fbc1e354" style="text-decoration:none;">[aebe30d]</a></sup>
+</p>
+<ul>
+<li>Added project Makefile to simplify local startup/shutdown workflows.</li>
+<li>Added appsettings.Production.json; updated appsettings.Development.json, appsettings.json; env-specific behavior now selected through environment configuration.</li>
+<li>Updated README to reflect the adjusted local workflow.</li>
+</ul>
+
+<p>
+<span style="background-color:#D6336C;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">infra</span>
+<b>VM route and launcher setup (vm-launch-bridge)</b>
+<i>[Jun 2, uncommitted]</i>
+<span style="background-color:#616161;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">parallel with backend</span>
+</p>
+<ul>
+<li>Set up and inspected the VM-based launch route for the game runtime workflow before moving to a direct local Unity Editor setup.</li>
+<li>Reviewed the launcher bridge structure for macOS and Windows &mdash; understood how launch-triggered game flow was handled outside the editor.</li>
+<li>Established the VM/launcher route as part of the local run strategy; later abandoned as too heavy on storage/memory.</li>
+</ul>
+<p style="color:#666666;font-family:monospace;font-size:11px;">~/git/vm-launch-bridge/README.md &middot; mac/trigger-launch.sh &middot; mac/build-handler.sh &middot; windows/Watch-LaunchFolder.ps1 &middot; windows/Receive-Sail3dl.ps1</p>
+<p style="color:#666666;"><i>No git commit &mdash; vm-launch-bridge is not tracked as a git repo in this workspace.</i></p>
+
+<p>
+<span style="background-color:#D6336C;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">infra</span>
+<b>Local proxy setup for API interception</b>
+<i>[Jun 3, uncommitted]</i>
+</p>
+<ul>
+<li>Set up and inspected the local proxy route to intercept game API traffic and forward it to a local backend instead of the hosted stage API.</li>
+<li>Reviewed the proxy container setup and reverse-proxy configuration used to support local backend routing without changing Unity client code.</li>
+</ul>
+<p style="color:#666666;font-family:monospace;font-size:11px;">~/git/vm-launch-bridge/proxy/nginx.conf &middot; proxy/docker-compose.yml &middot; proxy/README.md</p>
+
+<!-- ============================================================ -->
+<h3 style="margin-bottom:0;">June 8 &ndash; June 21, 2026 <span style="background-color:#8E44AD;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">1</span> <span style="background-color:#D6336C;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">1</span></h3>
+<hr style="margin-top:2px;">
+
+<p>
+<span style="background-color:#8E44AD;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">game</span>
+<b>sail_redux Unity project bring-up on macOS (compile-time reduction, editor tracing)</b>
+<i>[Jun 15 &ndash; Jun 28]</i>
+</p>
+<ul>
+<li>Set up sail_redux locally in the Unity Editor on macOS; abandoned the VM route as too heavy on storage/memory.</li>
+<li>Traced the initial compilation failure to shared/backend module content pulled into the Unity project; identified missing shared module dependency and how it was imported into Assets.</li>
+<li>Investigated Safe Mode compiler failures; distinguished Unity-appropriate parts from backend-only parts.</li>
+<li>Reviewed editor exceptions and runtime shutdown issues (teardown-related service errors when Play mode stopped early).</li>
+<li>Traced startup/login flow &mdash; cached token validation through account login and network request path.</li>
+</ul>
+
+<p>
+<span style="background-color:#D6336C;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">infra</span>
+<b>Proxy configuration update</b>
+<i>[Jun 19, uncommitted]</i>
+</p>
+<ul>
+<li>Updated / rechecked reverse-proxy configuration during the local backend routing effort.</li>
+</ul>
+<p style="color:#666666;font-family:monospace;font-size:11px;">~/git/vm-launch-bridge/proxy/nginx.conf</p>
+
+<!-- ============================================================ -->
+<h3 style="margin-bottom:0;">June 22 &ndash; July 5, 2026 <span style="background-color:#8E44AD;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">1</span> <span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">1</span> <span style="background-color:#34A853;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">1</span></h3>
+<hr style="margin-top:2px;">
+
+<p>
+<span style="background-color:#8E44AD;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">game</span>
+<b>401/JWT investigation on live Unity traffic</b>
+<i>[Jun 29 &ndash; Jul 12]</i>
+</p>
+<ul>
+<li>Confirmed via request logs that Unity traffic was reaching the proxy and then the backend during real runtime.</li>
+<li>Investigated repeated 401 Unauthorized failures; identified JWT validation as the active blocker, not transport/connectivity.</li>
+<li>Broke down observed traffic (/api/account/info, /api/chat/check-rewards) to validate runtime client behavior.</li>
+</ul>
+
+<p>
+<span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">backend</span>
+<b>Postgres local configuration adjustment</b>
+<i>[Jul 2, uncommitted]</i>
+</p>
+<p style="color:#666666;font-family:monospace;font-size:11px;">conf/postgresql.conf</p>
+
+<p>
+<span style="background-color:#34A853;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">frontend</span>
+<b>Signup wallet-address fix &mdash; align signup payload with signed wallet</b>
+<i>[Jul 2]</i>
+<span style="background-color:#FFB300;color:#000000;font-weight:bold;padding:3px 12px;border-radius:999px;">3-stream overlap</span>
+<sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sophiaverse-website/pull/68" style="text-decoration:none;">[PR 68]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sophiaverse-website/commit/9415575cac5bb5dcee89e6db69e91e9ec919498c" style="text-decoration:none;">[9415575]</a></sup>
+</p>
+<ul>
+<li>Updated RegisterAccountModal to receive the connected wallet address from LoginWrapper; removed the modal&rsquo;s internal AppKit address lookup.</li>
+<li>Prevented signup from independently falling back to zeroAddress, so the signup payload address matches the wallet that signed the auth message.</li>
+</ul>
+<p style="color:#666666;"><i>Commit message: fix: pass connected wallet address to register modal to prevent zero-address signup</i></p>
+
+<!-- ============================================================ -->
+<h3 style="margin-bottom:0;">July 6 &ndash; July 19, 2026 &mdash; <span style="background-color:#E53935;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">density peak</span> <span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">4</span> <span style="background-color:#8E44AD;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">1</span></h3>
+<hr style="margin-top:2px;">
+
+<p>
+<span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">backend</span>
+<b>Seedlings API cleanup &amp; integration-test polling helper</b>
+<i>[Jul 5 &ndash; Jul 13]</i>
+<sup style="font-size:14px;"><a href="https://soph-gpai.atlassian.net/browse/SAIL3-52" style="text-decoration:none;">[SAIL3-52]</a></sup>, <sup style="font-size:14px;"><a href="https://soph-gpai.atlassian.net/browse/SAIL3-57" style="text-decoration:none;">[SAIL3-57]</a></sup>, <sup style="font-size:14px;"><a href="https://soph-gpai.atlassian.net/browse/SAIL3-63" style="text-decoration:none;">[SAIL3-63]</a></sup>, <sup style="font-size:14px;"><a href="https://soph-gpai.atlassian.net/browse/SAIL3-64" style="text-decoration:none;">[SAIL3-64]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/pull/364" style="text-decoration:none;">[PR 364]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/68725cf5" style="text-decoration:none;">[68725cf]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/4cf55d79" style="text-decoration:none;">[4cf55d7]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/8d83783f" style="text-decoration:none;">[8d83783]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/10e044b6" style="text-decoration:none;">[10e044b]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/622de8a6" style="text-decoration:none;">[622de8a]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/668fd825" style="text-decoration:none;">[668fd82]</a></sup>
+</p>
+<ul>
+<li>Null-returning controller actions now emit NoContent(reason); X-Reason exposed via CORS.</li>
+<li>Task.Delay waits in integration tests replaced with reusable WaitForConditionAsync poll-until helper.</li>
+<li>Removed commented-out alternate auth middleware in Program.cs and original SeedlingTests implementation.</li>
+</ul>
+
+<p>
+<span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">backend</span>
+<b>ComfyUIImageService constructor fix &mdash; unblocking Articy, Hangfire, admin routes</b>
+<i>[Jul 10]</i>
+<sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/pull/372" style="text-decoration:none;">[PR 372]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/5f003f7b" style="text-decoration:none;">[5f003f7]</a></sup>
+</p>
+<ul>
+<li>Diagnosed startup DI failure: AddHttpClient&lt;IImageService, ComfyUIImageService&gt; requires ctor to take HttpClient first; existing ctor took IHttpClientFactory &rarr; /admin/login, /api/articy/*, /api/image/* all returned 500.</li>
+<li>One-line ctor swap; also unblocked Sail3AppInitializationService.StartAsync (Articy init + Hangfire recurring-job registration).</li>
+</ul>
+
+<p>
+<span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">backend</span>
+<b>Local ComfyUI image-generation pipeline (KR 3.1)</b>
+<i>[Jul 11 &ndash; Jul 13]</i>
+<sup style="font-size:14px;">[6656f90]</sup>
+</p>
+<ul>
+<li>Cloned upstream ComfyUI; Apple Silicon MPS venv; SD 1.5 checkpoint (~4.27 GB, ~4h download due to HuggingFace CDN throttling to ~7 KB/s).</li>
+<li>Wired typed HttpClient to http://127.0.0.1:8188; verified via Swagger /api/image/generate-and-wait-result.</li>
+<li>Documented Articy &rarr; ComfyUI seam via ScriptMethodProvider.GenerateImage(prompt).</li>
+</ul>
+
+<p>
+<span style="background-color:#8E44AD;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">game</span>
+<b>Gameplay backend-traffic verification &amp; runtime debugging</b>
+<i>[Jul 13 &ndash; Jul 26]</i>
+</p>
+<ul>
+<li>Played through the game while monitoring backend traffic to verify gameplay actions produced real backend calls during live execution.</li>
+<li>Investigated quest/progression runtime logs; reviewed how the Unity client depended on backend-backed auth and conversation/state flow.</li>
+<li>Documented practical runtime issues (editor instability during navigation, auth failures, startup-flow debugging).</li>
+</ul>
+
+<p>
+<span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">backend</span>
+<b>Stale-Authorization test-cleanup fix in LoginAndDeleteWalletUser</b>
+<i>[Jul 13 &ndash; Jul 15]</i>
+<sup style="font-size:14px;"><a href="https://soph-gpai.atlassian.net/browse/SAIL3-76" style="text-decoration:none;">[SAIL3-76]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/pull/375" style="text-decoration:none;">[PR 375]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/d0dc96ea" style="text-decoration:none;">[d0dc96e]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/9293e24a" style="text-decoration:none;">[9293e24]</a></sup>
+</p>
+<ul>
+<li>After /logout, backend invalidated the JWT but httpClient.DefaultRequestHeaders.Authorization still carried the token &mdash; middleware 401ed even AllowAnonymous /login. Cleanup else was commented-out throw; leaked wallet-users across tests.</li>
+<li>Fix: clear Authorization header before login; tighten else to throw on unexpected non-2xx. Hoisted TestDateTimeProvider.Reset() into GameTests ctor.</li>
+</ul>
+
+<p>
+<span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">backend</span>
+<b>AdminController integration-test baseline</b>
+<i>[Jul 16]</i>
+<sup style="font-size:14px;"><a href="https://soph-gpai.atlassian.net/browse/SAIL3-60" style="text-decoration:none;">[SAIL3-60]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/pull/383" style="text-decoration:none;">[PR 383]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/8b877a15d7ecfc16b07ece0ebba4de41d4c185fa" style="text-decoration:none;">[8b877a1]</a></sup>
+</p>
+<ul>
+<li>Added integration coverage for admin login, invalid credentials, JWT cookie creation, unauthenticated access, non-admin authorization, dashboard access, users listing, and logout.</li>
+</ul>
+
+<p>
+<span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">backend</span>
+<b>Extended admin test coverage &mdash; CSRF POSTs, uploads, user detail, view content, remaining GETs</b>
+<i>[Jul 17]</i>
+<sup style="font-size:14px;"><a href="https://soph-gpai.atlassian.net/browse/SAIL3-80" style="text-decoration:none;">[SAIL3-80]</a></sup>/<sup style="font-size:14px;"><a href="https://soph-gpai.atlassian.net/browse/SAIL3-81" style="text-decoration:none;">[SAIL3-81]</a></sup>/<sup style="font-size:14px;"><a href="https://soph-gpai.atlassian.net/browse/SAIL3-82" style="text-decoration:none;">[SAIL3-82]</a></sup>/<sup style="font-size:14px;"><a href="https://soph-gpai.atlassian.net/browse/SAIL3-83" style="text-decoration:none;">[SAIL3-83]</a></sup>/<sup style="font-size:14px;"><a href="https://soph-gpai.atlassian.net/browse/SAIL3-84" style="text-decoration:none;">[SAIL3-84]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/pull/385" style="text-decoration:none;">[PR 385]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/edf5aa3558ecbe9dd098a30608d100d731c6fe45" style="text-decoration:none;">[edf5aa3]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/de26edcfed9eb19bb211491c04dbff11092290c3" style="text-decoration:none;">[de26edc]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/9fe0e520aa4d0d0ae26f7ba6f1052aa09c09d077" style="text-decoration:none;">[9fe0e52]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/4bff95c42ed392e264b9fc1f13562c352a9dd6ff" style="text-decoration:none;">[4bff95c]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/ade6f26ab31630f70c799c6bd84a9396624f7bda" style="text-decoration:none;">[ade6f26]</a></sup>
+</p>
+<ul>
+<li>4 CSRF-protected POSTs with anti-forgery token from GET view; negative case proves the filter blocks tokenless requests.</li>
+<li>Multipart ZIP upload: valid, wrong extension, missing file (model-binding rejection), unauthorized. ZIP generated in memory.</li>
+<li>Encrypted user-detail identifiers, malformed identifiers, authorization rules, rendered user info.</li>
+<li>HTML assertions for login error banner, users table (seeded admin), dashboard engagement labels.</li>
+<li>[Theory]-driven coverage of remaining view-only GET endpoints.</li>
+</ul>
+
+<!-- ============================================================ -->
+<h3 style="margin-bottom:0;">July 20 &ndash; August 2, 2026 &mdash; <span style="background-color:#E53935;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">density peak</span> <span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">6</span> <span style="background-color:#34A853;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">2</span></h3>
+<hr style="margin-top:2px;">
+
+<p>
+<span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">backend</span>
+<b>Admin test review, refactor, and HtmlAgilityPack parsing</b>
+<i>[Jul 20 &ndash; Jul 22]</i>
+<sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/87f077617e245724792aad8955896fe8697883f2" style="text-decoration:none;">[87f0776]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/887bd834a5900d40aabef6f99ae9f49d37280881" style="text-decoration:none;">[887bd83]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/627c25db3645946b6f3d01cd51d1fed0bf81fabf" style="text-decoration:none;">[627c25d]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/258c8def28521cbbd0745ddbfe24bbc10f6f9456" style="text-decoration:none;">[258c8de]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/b0b78e8d21ae56b74914cab11726dcb8cceca7c9" style="text-decoration:none;">[b0b78e8]</a></sup>
+</p>
+<ul>
+<li>Addressed review feedback; removed debugging code; clarified test names; extracted reusable authentication and cookie values.</li>
+<li>Consolidated shared admin test helpers into AdminIntegrationTestBase.</li>
+<li>Replaced fragile regex parsing with HtmlAgilityPack for anti-forgery tokens and HTML assertions.</li>
+</ul>
+
+<p>
+<span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">backend</span>
+<b>Code review &mdash; <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/pull/377" style="text-decoration:none;">[PR 377]</a></sup> &ldquo;Triage commented-out integration tests&rdquo; (RPS assertions &amp; dream-trap threshold)</b>
+<i>[Jul 20 reviewed &middot; Jul 22 merged]</i>
+<sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/pull/377" style="text-decoration:none;">[PR 377]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/43351d09" style="text-decoration:none;">[43351d0]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/f39c21d4" style="text-decoration:none;">[f39c21d]</a></sup>
+</p>
+<ul>
+<li>Flagged weakened happiness assertion in Play_RPS__Should_Run_Game_Until_GameOver (both if/else branches asserted the same trivial &ldquo;didn&rsquo;t decrease&rdquo; &mdash; dead branching, no coverage of the actual RPS reward mechanic).</li>
+<li>Traced correct expected values from seeded AppVariableValues (Sendroid.RPSHappinessForWinning = 5, Sendroid.RPSHappinessForLosing = 2); after author clarification, acknowledged reward-name POV is Sen&rsquo;s.</li>
+<li>Identified off-by-one between Dream_trap_should_start_if_we_have_3_successfully_completed_dream_stasis and ChatService.cs:127-147 (triggers on &gt; 3, i.e. after 4). Mapped the trap-trigger logic against the test&rsquo;s 5 chat calls to confirm the code is correct and the test name is misleading.</li>
+</ul>
+
+<p>
+<span style="background-color:#34A853;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">frontend</span>
+<b>Wallet address hook refactor &mdash; source from wagmi, retain AppKit connection state</b>
+<i>[Jul 21]</i>
+<span style="background-color:#616161;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">alongside backend admin tests</span>
+<sup style="font-size:14px;"><a href="https://soph-gpai.atlassian.net/browse/SAIL3-74" style="text-decoration:none;">[SAIL3-74]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sophiaverse-website/commit/35dbdba02dd30aed65b983e424891163c369e1d6" style="text-decoration:none;">[35dbdba]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sophiaverse-website/commit/cf0b99660a9a2db7e1da73875b824f3eca94e090" style="text-decoration:none;">[cf0b996]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sophiaverse-website/commit/8c73a2d6a6fa906605ff7f68aef64607f727df41" style="text-decoration:none;">[8c73a2d]</a></sup>
+</p>
+<ul>
+<li>Updated shared useWalletAccount hook to source wallet address from wagmi&rsquo;s useAccount while retaining AppKit&rsquo;s isConnected behavior.</li>
+<li>Migrated other wallet-dependent functionality (including useUserInfo) to the wagmi address.</li>
+<li>Added automated login and signup tests with Playwright, Synpress, MSW, and viem &mdash; verifying auth payloads use the wallet address that signed the message.</li>
+<li>Refactored LoginWrapper to consume the address through the shared hook; still uses wagmi&rsquo;s useAccount only for connector information.</li>
+</ul>
+
+<p>
+<span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">backend</span>
+<b>Swagger MetaMask wallet login panel</b>
+<i>[Jul 23]</i>
+<sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/pull/390" style="text-decoration:none;">[PR 390]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/57fc871bfd6946a574cb8dfd6a3f0deaf000babf" style="text-decoration:none;">[57fc871]</a></sup>
+</p>
+<ul>
+<li>Developer login panel injected into Swagger UI: connects MetaMask, requests signed login message, calls existing account login endpoint, passes returned Bearer token to Swagger authorization.</li>
+<li>Token persistence, logout, account display, readable wallet errors, API-group search, match counts, collapse controls in a floating Swagger toolbar.</li>
+</ul>
+
+<p>
+<span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">backend</span>
+<b>Swagger login refactoring and test-mode isolation</b>
+<i>[Jul 27]</i>
+<sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/ff0b6ba8c1dd114bab6b49076822f081c46f9e05" style="text-decoration:none;">[ff0b6ba]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/e641d20ffdd401e68d57cdeb0af8721ea2d23ceb" style="text-decoration:none;">[e641d20]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/add6dd9af85238ce2b179384db7cf42aa9971df7" style="text-decoration:none;">[add6dd9]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/1da484d7d02bc2146453153487244521b1148245" style="text-decoration:none;">[1da484d]</a></sup>
+</p>
+<ul>
+<li>Localized MetaMask icon, normalized API response fields, clarified constants, simplified tests.</li>
+<li>Split JS initialization, added stored-session validation, extracted styles, improved UI state handling.</li>
+<li>Prevented static logger configuration from leaking between test application hosts.</li>
+<li>Moved Swagger developer assets outside wwwroot; exposed only when IsTestMode is enabled.</li>
+</ul>
+
+<p>
+<span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">backend</span>
+<b>Swagger session and asset fixes</b>
+<i>[Jul 28]</i>
+<sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/b040e8f7a3157da01f7d749d3ad260ac388e7404" style="text-decoration:none;">[b040e8f]</a></sup>
+</p>
+<ul>
+<li>Expired-session cleanup, reused shared status-reset logic, scoped developer assets under a dedicated request path to prevent collisions with wwwroot.</li>
+</ul>
+
+<p>
+<span style="background-color:#34A853;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">frontend</span>
+<b>Wallet authentication review feedback</b>
+<i>[Jul 29]</i>
+<span style="background-color:#FFB300;color:#000000;font-weight:bold;padding:3px 12px;border-radius:999px;">4-stream week</span>
+<sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sophiaverse-website/commit/b4edc241b8bd7ea0296a3de0a5f1b61ba80d023e" style="text-decoration:none;">[b4edc24]</a></sup>
+</p>
+<ul>
+<li>Removed remaining signup zeroAddress fallback.</li>
+<li>Prevented registration modal rendering without a valid address.</li>
+<li>Restored email info for AppKit embedded / social-wallet users.</li>
+<li>Documented the intentional split between wagmi&rsquo;s address and AppKit&rsquo;s connection state.</li>
+<li>Expanded signup testing to submit the form and inspect the signup payload; improved test readability.</li>
+</ul>
+
+<p>
+<span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">backend</span>
+<b>DTO submodule investigation and Dockerfile repair</b>
+<i>[Jul 31 &ndash; Aug 3]</i>
+<sup style="font-size:14px;"><a href="https://soph-gpai.atlassian.net/browse/SAIL3-89" style="text-decoration:none;">[SAIL3-89]</a></sup>, <sup style="font-size:14px;"><a href="https://soph-gpai.atlassian.net/browse/SAIL3-90" style="text-decoration:none;">[SAIL3-90]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/pull/393" style="text-decoration:none;">[PR 393]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/4911192d16448bc7560106d4e54fbf6af2cafba2" style="text-decoration:none;">[4911192]</a></sup>
+</p>
+<ul>
+<li>Investigated DTO-sharing across develop, main, backend workflows, and the SophiaVerse Unity repo. Confirmed source/Sail3.Shared is the active project; Unity consumes backend via a standard Git submodule.</li>
+<li>Identified stale source/SAIL3.SharedDTOs gitlink (no matching .gitmodules) and obsolete workflow that deleted and re-cloned the retired repo over SSH each production build. Removed both.</li>
+<li>Repaired API Dockerfile: removed references to deleted Sail3.Model, Sail3.Tools, Sail3.Service, SAIL3.SharedDTOs; replaced with active Sail3.Shared.</li>
+<li>Verified Packages.props must be present in the cached restore layer &mdash; reproduced failure without it: 36 compilation errors from obsolete fallback versions.</li>
+</ul>
+
+<!-- ============================================================ -->
+<h3 style="margin-bottom:0;">August 3 &ndash; August 16, 2026 <span style="background-color:#34A853;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">1</span> <span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">1</span> <span style="background-color:#E67E22;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">3</span> <span style="background-color:#17A2B8;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">1</span> <span style="background-color:#8E44AD;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">1</span></h3>
+<hr style="margin-top:2px;">
+
+<p>
+<span style="background-color:#34A853;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">frontend</span>
+<b>PR #68 merged &mdash; wallet-address reliability work completed</b>
+<i>[Aug 3]</i>
+<sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sophiaverse-website/commit/fe55fc82280c6adfe154cb222215e97494c115e8" style="text-decoration:none;">[fe55fc8]</a></sup>
+</p>
+<ul>
+<li>Merged into the development branch.</li>
+</ul>
+
+<p>
+<span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">backend</span>
+<b>Backend Git and DTO documentation</b>
+<i>[Aug 4]</i>
+<sup style="font-size:14px;"><a href="https://github.com/SophiaLabsDevs/sail3-backend/commit/1f79e1ae7e0e2510c9b1919710d156daf0f33f1c" style="text-decoration:none;">[1f79e1a]</a></sup>
+</p>
+<ul>
+<li>Documented current backend Git setup, stage/production branches, fresh-clone requirements, DTO migration history, and production release plan.</li>
+<li>Updated docs after review so completed cleanup work is described as completed rather than pending.</li>
+</ul>
+
+<p>
+<span style="background-color:#E67E22;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">agent</span>
+<b>Bridge foundation &mdash; OmegaClaw &harr; SophiaVerse Unity via /game/state WebSocket</b>
+<i>[Aug 11 &ndash; Aug 12]</i>
+<sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/b51dead" style="text-decoration:none;">[b51dead]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/682d880" style="text-decoration:none;">[682d880]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/f272fdf" style="text-decoration:none;">[f272fdf]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/08f7338" style="text-decoration:none;">[08f7338]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/a4837a8" style="text-decoration:none;">[a4837a8]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/2f65697" style="text-decoration:none;">[2f65697]</a></sup>
+</p>
+<ul>
+<li>Surveyed three repos (SophiaVerse Unity, Control Deck, OmegaClaw); identified the smallest integration seam &mdash; a WebSocket-client bridge keeping Unity&rsquo;s game-state interface neutral of OmegaClaw and ELSRunner.</li>
+<li>Schema-2.2 snapshot parser; action tracker with one-in-flight enforcement (Cancel bypasses the lock, mirroring Unity&rsquo;s PlayerActionExecutor); policy layer with strict validation against AvailableActions.Player.</li>
+<li>Fake Unity WebSocket server + 19-test suite (malformed snapshots, unavailable actions, rejection, timeout-triggered Cancel).</li>
+<li>One-command local launcher: spins up Control Deck, waits for Unity, starts bridge; auto-loads ASI_API_KEY; --policy minimax supported.</li>
+<li>Verified end-to-end demo (RotateRight &rarr; RotateLeft &rarr; MoveAhead &rarr; Cancel) against real Unity Editor.</li>
+</ul>
+<p style="color:#666666;"><i>Repos are private on Tibex88; commit links resolve for authorized viewers.</i></p>
+
+<p>
+<span style="background-color:#E67E22;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">agent</span>
+<b>OmegaSen identity pivot and LLM-driven play</b>
+<i>[Aug 13 &ndash; Aug 14]</i>
+<sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/3fb8137" style="text-decoration:none;">[3fb8137]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/de664ca" style="text-decoration:none;">[de664ca]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/9e3895e" style="text-decoration:none;">[9e3895e]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/2c2225e" style="text-decoration:none;">[2c2225e]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/17883c8" style="text-decoration:none;">[17883c8]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/455626c" style="text-decoration:none;">[455626c]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/38f6f12" style="text-decoration:none;">[38f6f12]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/268d8f4" style="text-decoration:none;">[268d8f4]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/939441e" style="text-decoration:none;">[939441e]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/3a38fa3" style="text-decoration:none;">[3a38fa3]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/afd17bc" style="text-decoration:none;">[afd17bc]</a></sup>
+</p>
+<ul>
+<li>Consolidated onto a new branch off OmegaClaw main using git worktree; cherry-picked prior bridge work cleanly.</li>
+<li>Wrote OmegaSen system prompt for the LLM policy: identity, world model, perception decoding, action catalog, strict JSON output contract.</li>
+<li>Rewrote memory/prompt.txt and memory/prompt_ASICloud.txt so MeTTa loop persona knows OmegaSen operates SAIL.</li>
+<li>Added channels/game_ws.py + src/sail_skills.metta so OmegaClaw&rsquo;s MeTTa loop can drive Unity with memory and reasoning engaged.</li>
+<li>Search-goal system: --find NAME + --goal TEXT. Bridge watches perception, records target_found, exits on discovery.</li>
+<li>First LLM-driven play: OmegaSen chose MoveAhead(0.5) with rationale (&ldquo;Move closer to password collider to enable interaction&rdquo;).</li>
+<li>Reliability fixes from live runs.</li>
+</ul>
+
+<p>
+<span style="background-color:#E67E22;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">agent</span>
+<b>Scenario harness for evidence-producing experiments</b>
+<i>[Aug 13 &ndash; Aug 14]</i>
+<sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/19d59ee" style="text-decoration:none;">[19d59ee]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/46b7714" style="text-decoration:none;">[46b7714]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/9b32164" style="text-decoration:none;">[9b32164]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/b3cd410" style="text-decoration:none;">[b3cd410]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/OmegaClaw-Core-sail/commit/07bfece" style="text-decoration:none;">[07bfece]</a></sup>
+</p>
+<ul>
+<li>Scenario dataclass, formatter, async runner &mdash; three artifacts per run: run.log, metrics.json, snapshots.jsonl. Added on_action_request callback to UnityBridge.</li>
+<li>Beautified log with per-scenario header, connect timing, snapshot summaries, outbound actions + rationale, lifecycle events, verdict.</li>
+<li>10 scenarios (S01&ndash;S10); CLI python -m experiments.run [S01 | &hellip; | all]; 36/36 tests pass.</li>
+<li>Live-run S09 recorded (3 min): OmegaSen chose 9 valid actions &mdash; 8 completed, 1 stall-failed by Unity. Upload pack of S07&ndash;S10 (12 min 42 s) + logs + timing table.</li>
+</ul>
+
+<p>
+<span style="background-color:#17A2B8;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">deck</span>
+<b>Control Deck perception panel &mdash; view-only dashboard alongside OmegaSen integration</b>
+<i>[Aug 13 &ndash; Aug 14]</i>
+<sup style="font-size:14px;"><a href="https://github.com/Tibex88/sophiaverse-control-deck/commit/6d3d3ae" style="text-decoration:none;">[6d3d3ae]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/sophiaverse-control-deck/commit/b354923" style="text-decoration:none;">[b354923]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/sophiaverse-control-deck/commit/5e1806e" style="text-decoration:none;">[5e1806e]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/sophiaverse-control-deck/commit/7692934" style="text-decoration:none;">[7692934]</a></sup>
+</p>
+<ul>
+<li>Initial deck scaffolding.</li>
+<li>Player perception telemetry display.</li>
+<li>Mocked raycast perception snapshots for tests.</li>
+<li>Documented the perception dashboard.</li>
+</ul>
+
+<p>
+<span style="background-color:#8E44AD;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">game</span>
+<b>sail_redux &mdash; metadata / action WebSocket bridge + raycast perception sensor</b>
+<i>[Aug 13 &ndash; Aug 14]</i>
+<sup style="font-size:14px;">[a6fb4359]</sup> <sup style="font-size:14px;">[e660a521]</sup> <sup style="font-size:14px;">[19669af5]</sup> <sup style="font-size:14px;">[188f45cc]</sup> <sup style="font-size:14px;">[4e99db82]</sup> <sup style="font-size:14px;">[d70f1cb2]</sup> <sup style="font-size:14px;">[52b467d5]</sup> <sup style="font-size:14px;">[e616bcf4]</sup> <sup style="font-size:14px;">[a71b177c]</sup> <sup style="font-size:14px;">[18091c5a]</sup> <sup style="font-size:14px;">[98a71076]</sup> <sup style="font-size:14px;">[fa13d52c]</sup>
+</p>
+<ul>
+<li>Exposed Unity state over a metadata WebSocket with tests covering state + transport.</li>
+<li>Added an actor-scoped Unity action bridge; fix for waiting on chat service registration.</li>
+<li>Redacted sensitive network headers; tests covering the player-action WebSocket lifecycle.</li>
+<li>Added a player raycast perception sensor with tests.</li>
+<li>Documented the game-state perception protocol; normalized Unity metadata; relocated the capture utility.</li>
+</ul>
+<p style="color:#666666;"><i>Unity repo push pending &mdash; commits reference local feature/game-agent-integration branch (5.2 GB, deferred pending LFS / upstream push decision).</i></p>
+
+</body>
+</html>
