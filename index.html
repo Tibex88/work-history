@@ -77,8 +77,7 @@
 <li>Reviewed the launcher bridge structure for macOS and Windows &mdash; understood how launch-triggered game flow was handled outside the editor.</li>
 <li>Established the VM/launcher route as part of the local run strategy; later abandoned as too heavy on storage/memory.</li>
 </ul>
-<p style="color:#666666;font-family:monospace;font-size:11px;">~/git/vm-launch-bridge/README.md &middot; mac/trigger-launch.sh &middot; mac/build-handler.sh &middot; windows/Watch-LaunchFolder.ps1 &middot; windows/Receive-Sail3dl.ps1</p>
-<p style="color:#666666;"><i>Committed retroactively to <a href="https://github.com/Tibex88/vm-launch-bridge" target="_blank" rel="noopener">Tibex88/vm-launch-bridge</a> (private).</i></p>
+<p style="color:#666666;"><i>Committed to <a href="https://github.com/Tibex88/vm-launch-bridge" target="_blank" rel="noopener">Tibex88/vm-launch-bridge</a>.</i></p>
 
 <p>
 <span style="background-color:#D6336C;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">infra</span>
@@ -90,7 +89,6 @@
 <li>Set up and inspected the local proxy route to intercept game API traffic and forward it to a local backend instead of the hosted stage API.</li>
 <li>Reviewed the proxy container setup and reverse-proxy configuration used to support local backend routing without changing Unity client code.</li>
 </ul>
-<p style="color:#666666;font-family:monospace;font-size:11px;">~/git/vm-launch-bridge/proxy/nginx.conf &middot; proxy/docker-compose.yml &middot; proxy/README.md</p>
 
 <!-- ============================================================ -->
 <h3 style="margin-bottom:0;">June 8 &ndash; June 21, 2026 <span style="background-color:#8E44AD;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">1</span> <span style="background-color:#D6336C;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">1</span></h3>
@@ -118,7 +116,6 @@
 <ul>
 <li>Updated / rechecked reverse-proxy configuration during the local backend routing effort.</li>
 </ul>
-<p style="color:#666666;font-family:monospace;font-size:11px;">~/git/vm-launch-bridge/proxy/nginx.conf</p>
 
 <!-- ============================================================ -->
 <h3 style="margin-bottom:0;">June 22 &ndash; July 5, 2026 <span style="background-color:#8E44AD;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">1</span> <span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">1</span> <span style="background-color:#34A853;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">1</span></h3>
@@ -153,7 +150,6 @@
 <li>Updated RegisterAccountModal to receive the connected wallet address from LoginWrapper; removed the modal&rsquo;s internal AppKit address lookup.</li>
 <li>Prevented signup from independently falling back to zeroAddress, so the signup payload address matches the wallet that signed the auth message.</li>
 </ul>
-<p style="color:#666666;"><i>Commit message: fix: pass connected wallet address to register modal to prevent zero-address signup</i></p>
 
 <!-- ============================================================ -->
 <h3 style="margin-bottom:0;">July 6 &ndash; July 19, 2026 &mdash; <span style="background-color:#E53935;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">density peak</span> <span style="background-color:#4A90E2;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">4</span> <span style="background-color:#8E44AD;color:#ffffff;font-weight:bold;padding:2px 8px;border-radius:999px;font-size:11px;">1</span></h3>
@@ -394,7 +390,6 @@
 <li>One-command local launcher: spins up Control Deck, waits for Unity, starts bridge; auto-loads ASI_API_KEY; --policy minimax supported.</li>
 <li>Verified end-to-end demo (RotateRight &rarr; RotateLeft &rarr; MoveAhead &rarr; Cancel) against real Unity Editor.</li>
 </ul>
-<p style="color:#666666;"><i>Repos are private on Tibex88; commit links resolve for authorized viewers.</i></p>
 
 <p>
 <span style="background-color:#E67E22;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">agent</span>
@@ -451,7 +446,6 @@
 <li>Added a player raycast perception sensor with tests.</li>
 <li>Documented the game-state perception protocol; normalized Unity metadata; relocated the capture utility.</li>
 </ul>
-<p style="color:#666666;"><i>Unity repo push pending &mdash; commits reference local feature/game-agent-integration branch (5.2 GB, deferred pending LFS / upstream push decision).</i></p>
 
 </body>
 </html>
