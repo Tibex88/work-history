@@ -68,7 +68,8 @@
 <p>
 <span style="background-color:#D6336C;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">infra</span>
 <b>VM route and launcher setup (vm-launch-bridge)</b>
-<i>[Jun 2, uncommitted]</i>
+<i>[Jun 2]</i>
+<sup style="font-size:14px;"><a href="https://github.com/Tibex88/vm-launch-bridge/commit/f78fa11" target="_blank" rel="noopener" style="text-decoration:none;">[f78fa11]</a></sup>
 <span style="background-color:#616161;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">parallel with backend</span>
 </p>
 <ul>
@@ -77,12 +78,13 @@
 <li>Established the VM/launcher route as part of the local run strategy; later abandoned as too heavy on storage/memory.</li>
 </ul>
 <p style="color:#666666;font-family:monospace;font-size:11px;">~/git/vm-launch-bridge/README.md &middot; mac/trigger-launch.sh &middot; mac/build-handler.sh &middot; windows/Watch-LaunchFolder.ps1 &middot; windows/Receive-Sail3dl.ps1</p>
-<p style="color:#666666;"><i>No git commit &mdash; vm-launch-bridge is not tracked as a git repo in this workspace.</i></p>
+<p style="color:#666666;"><i>Committed retroactively to <a href="https://github.com/Tibex88/vm-launch-bridge" target="_blank" rel="noopener">Tibex88/vm-launch-bridge</a> (private).</i></p>
 
 <p>
 <span style="background-color:#D6336C;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">infra</span>
 <b>Local proxy setup for API interception</b>
-<i>[Jun 3, uncommitted]</i>
+<i>[Jun 3]</i>
+<sup style="font-size:14px;"><a href="https://github.com/Tibex88/vm-launch-bridge/commit/14ac807" target="_blank" rel="noopener" style="text-decoration:none;">[14ac807]</a></sup>
 </p>
 <ul>
 <li>Set up and inspected the local proxy route to intercept game API traffic and forward it to a local backend instead of the hosted stage API.</li>
@@ -110,7 +112,8 @@
 <p>
 <span style="background-color:#D6336C;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">infra</span>
 <b>Proxy configuration update</b>
-<i>[Jun 19, uncommitted]</i>
+<i>[Jun 19]</i>
+<sup style="font-size:14px;"><a href="https://github.com/Tibex88/vm-launch-bridge/commit/14ac807" target="_blank" rel="noopener" style="text-decoration:none;">[14ac807]</a></sup>
 </p>
 <ul>
 <li>Updated / rechecked reverse-proxy configuration during the local backend routing effort.</li>
@@ -365,6 +368,18 @@
 <li>Documented current backend Git setup, stage/production branches, fresh-clone requirements, DTO migration history, and production release plan.</li>
 <li>Updated docs after review so completed cleanup work is described as completed rather than pending.</li>
 </ul>
+<p>
+<span style="background-color:#D6336C;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">infra</span>
+<b>macOS Sail3dlForwarder app + C# / PS / Node WebSocket mock harness (vm-launch-bridge)</b>
+<i>[Aug 11 &ndash; Aug 14]</i>
+<sup style="font-size:14px;"><a href="https://github.com/Tibex88/vm-launch-bridge/commit/bd8272c" target="_blank" rel="noopener" style="text-decoration:none;">[bd8272c]</a></sup> <sup style="font-size:14px;"><a href="https://github.com/Tibex88/vm-launch-bridge/commit/6c0e851" target="_blank" rel="noopener" style="text-decoration:none;">[6c0e851]</a></sup>
+</p>
+<ul>
+<li>Built a macOS <code>Sail3dlForwarder.app</code> droplet that intercepts <code>sail3dl://</code> launch URLs and forwards them to the Windows-side receiver over the network.</li>
+<li>Added a C# ASP.NET Core WebSocket mock server (<code>WsMockServer</code>) so the launcher stack can be exercised end-to-end without booting the real backend.</li>
+<li>Added PowerShell (<code>Mock-WebSocketServer.ps1</code>) and Node (<code>mock-ws-server.js</code>) variants of the mock server for cross-platform testing; convenience <code>.bat</code>/<code>.sh</code> starters.</li>
+</ul>
+
 
 <p>
 <span style="background-color:#E67E22;color:#ffffff;font-weight:bold;padding:3px 12px;border-radius:999px;">agent</span>
